@@ -1,7 +1,322 @@
-$bg-color: #333;
-$color: #fff;
+$bg-color: #ecc;
+$color: green;
 
-body {
-    background: $bg-color;
-    color:$color;
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 5px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+//right, left margin: align all page
+.container{
+  margin: 0 5% 0 5%;
+}
+
+
+/*********************************************************
+==========================================================
+end the common
+===========================================================
+ *********************************************************/
+html,body{
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia;
+  background:#2B2236;
+
+}
+
+
+
+
+/*********************************************************
+==========================================================
+ the header
+===========================================================
+ *********************************************************/
+header {
+  margin-bottom: 20px;
+  .header__top-bar{
+    display: block;
+
+    &-inner{
+      display: flex;
+      justify-content: space-between;
+
+
+      .social-links{
+        display: flex;
+        padding: 0;
+
+        &__item {
+          margin-right: 4px;
+        }
+      }
+
+      .nav-account{
+        display: flex;
+        align-self: end;
+
+        &__item{
+          margin-left: 10px;
+
+          font-size: 12px;
+          color: white;
+          &::after{
+            content: '|';
+          }
+          &--lighter{
+            color:#00ff5b;
+          }
+        }
+      }
+    }
+
+  }
+
+  .header__primary{
+    background: #403351;
+    &-inner {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+
+      .header-logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+      }
+      .main-nav {
+        width: 40%;
+        &__list {
+          display: flex;
+          justify-content: space-between;
+          padding:0 ;
+
+        }
+        &__children{
+          color:white;
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+      .header-search-home {
+          input[type="text"]{
+            height: 38px;
+            padding: 0 4px;
+
+            border: solid 1px;
+            border-radius: 20px;
+
+          }
+      }
+    }
+  }
+
+}
+
+/*********************************************************
+==========================================================
+ the introduction--header
+===========================================================
+ *********************************************************/
+
+//.rev_slider_wrapper container
+.rev-slider-wrapper{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+
+  background: url("../img/hero-bg-1.jpg");
+  background-size:cover;
+
+  //dot grid css
+  .dot-grid{
+    background: hsla(209, 100%, 47%, 0.1);
+    background-image: radial-gradient(hsla(209, 100%, 47%, 1.00) 5%, transparent 0);
+    background-size: 20px 20px;
+  }
+
+  &__image{
+    animation:  4s flip_image2 normal;
+  }
+  .intro{
+    position: absolute;
+    right: 20%;
+    top:20%;
+
+    font-weight: bold;
+    color:white;
+
+    &__rank{
+      margin: 0px;
+      padding: 0;
+      width: 0%;
+      overflow: hidden;
+
+      //pointer
+      border-right: solid 1px white;
+
+      font-size: 16px;
+      white-space: nowrap;//one line
+
+      animation: type 5s steps(22) infinite;
+    }
+    &__name{
+      margin: 0px;
+
+      font-size:60px;
+
+      animation: shake 4s cubic-bezier(.36,.07,.19,.97) infinite;
+      transform: translate3d(0, 0, 0);
+      &--green{
+        color:#00ff5b;
+      }
+    }
+    &__text{
+      font-size: 12px;
+      font-weight: lighter;
+    }
+    &__button{
+      margin-top:30px;
+      padding: 10px;
+
+      background: #8818f5;
+
+      border: solid 1px;
+      border-radius: 20px;
+
+      color:white;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: italic;
+      text-transform: uppercase;
+
+    }
+  }
+  .btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    &__left{
+      padding: 20px;
+    }
+    &__right{
+      padding: 20px;
+    }
+  }
+}
+
+
+
+
+/*********************************************************
+==========================================================
+animation
+===========================================================
+ *********************************************************/
+
+@keyframes type {
+  0%{
+    width:0;
+  }
+  50%{
+    width: 40%;
+  }
+  100%{
+    width: 0;
+  }
+
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+@keyframes flip_image {
+  0% {
+    transform: translate3d(0,100% , 0);
+  }
+
+  40% {
+    transform: translate3d(0, 60%, 0);
+  }
+
+  60% {
+    transform: translate3d(0, 40%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes flip_image2 {
+  10%{
+    transform: rotateX(90deg);
+  }
+  50%{
+    transform: rotateX(45deg);
+  }
+  100%{
+    transform: rotateX(0deg);
+  }
 }

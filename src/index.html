@@ -1,15 +1,103 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Sass Starter Pack</title>
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
-  <h1>Sass Starter Pack</h1>
-  <p>Edit the scss/style.scss file and it will automatically compile into css/style.css</p>
+
+<!--div: header+slider: height 100vh-->
+<div>
+    <header>
+        <div class="header__top-bar">
+            <div class="container">
+                <div class="header__top-bar-inner">
+                    <ul class="social-links">
+                        <li class="social-links__item">
+                            <a class="social-links_link"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a class="social-links_link"><i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a class="social-links_link"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a class="social-links_link"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="social-links__item">
+                            <a class="social-links_link"><i class="fa"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-account">
+                        <li class="nav-account__item">CURRENCY: <span class="nav-account__item--lighter">USD</span></li>
+                        <li class="nav-account__item">LANGUAGE: <span class="nav-account__item--lighter">USA</span></li>
+                        <li class="nav-account__item">ACCOUNT: <span class="nav-account__item--lighter">LOGIN</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__primary">
+            <div class="container">
+                <div class="header__primary-inner">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="img/alchemists-86x98.png"/>
+                        </a>
+                    </div>
+                    <div class="main-nav">
+                        <ul class="main-nav__list">
+                            <li><a class="main-nav__children" href="">HOME</a></li>
+                            <li><a class="main-nav__children" href="">TEAM</a></li>
+                            <li><a class="main-nav__children" href="">RESULT</a></li>
+                            <li><a class="main-nav__children" href="">RESULT</a></li>
+                            <li><a class="main-nav__children" href="">CALENDAR</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-search-home">
+                        <input type="text" placeholder="Enter your search here"/>
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="rev-slider-wrapper container">
+        <div class="dot-grid">
+            <img class="rev-slider-wrapper__image" src="img/hero-character-1.png"/>
+            <div class="intro">
+                <h6 class="intro__rank">Feature Player</h6>
+                <h1 class="intro__name">SARAH </br><span class="intro__name--green"> Valentine</span></h1>
+                <p class="intro__text">she has the highest kill ratio of all season</p>
+
+                <button class="intro__button">Check the player bio ></button>
+            </div>
+
+            <div class="btn">
+                <button class="btn__left"> <</button>
+                <button class="btn__right"> ></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 </body>
 
 </html>
+
+
+
