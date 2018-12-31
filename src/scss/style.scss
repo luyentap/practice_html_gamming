@@ -639,6 +639,24 @@ part1: the left
   }
 }
 
+
+.footer{
+  .sponsors{
+    background: #362b45;
+    .sponsors__list{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .sponsors__item{
+        mix-blend-mode: soft-light;
+
+        &:hover{
+          mix-blend-mode:normal ;
+        }
+      }
+    }
+  }
+}
 /*********************************************************
 ==========================================================
 animation

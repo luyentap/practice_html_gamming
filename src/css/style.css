@@ -493,6 +493,22 @@ part1: the left
       overflow: hidden;
       padding: 8px; }
 
+.footer .sponsors {
+  background: #362b45; }
+  .footer .sponsors .sponsors__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footer .sponsors .sponsors__list .sponsors__item {
+      mix-blend-mode: soft-light; }
+      .footer .sponsors .sponsors__list .sponsors__item:hover {
+        mix-blend-mode: normal; }
+
 /*********************************************************
 ==========================================================
 animation
