@@ -64,7 +64,15 @@ ul {
 .bg-red{
   background: #dc3545;
 }
-
+.bg_white{
+  background: #fff;
+}
+.cl-white{
+  color:#fff;
+}
+.cl-green{
+  color: #28a745;
+}
 //right, left margin: align all page
 .container{
   margin: 0 5% 0 5%;
@@ -84,7 +92,7 @@ ul {
 }
 .col-lg-4{
   display: flex;
-  flex: 0 0 32%;
+  flex: 0 0 34%;
   flex-wrap: wrap;
 }
 
@@ -443,6 +451,187 @@ part1: the left
 
         }
         .meta__item--comments{
+
+        }
+      }
+    }
+  }
+}
+.sidebar{
+  color:white;
+
+  .widget{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+
+    //background: #00ff5b;
+    &__title{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+
+      font-size: 20px;
+      text-transform: uppercase;
+      font-style: italic;
+
+      background: #403351;
+      .widget__btn{
+        align-self: center;
+        padding: 4px 2px;
+        border-radius: 20px;
+
+        background: #8c8297;
+        color:white;
+        font-size: 9px;
+
+      }
+
+
+    }
+    &__content{
+      .table{
+        width: 100%;
+        border-collapse: collapse;
+        background: #392D49;
+        &__head{
+          color:#28a745;
+          margin: 10px;
+          border-top: solid 0.2px #4b3b60;
+
+          font-size: 12px;
+          font-style: italic;
+        }
+        &__row{
+          border-top: solid 0.1px #4b3b60;
+
+          font-size: 11px;
+          .team-meta{
+              display: flex;
+              justify-content: space-between;
+            align-items: center;
+              &__logo{
+                object-fit: cover;
+                width: 20px;
+                height: 20px;
+              }
+              &__name{
+                font-size: 12px;
+                font-weight: bold;
+              }
+          }
+
+          &:hover{
+            background:#4b3b60 ;
+          }
+        }
+      }
+    }
+  }
+
+  .twitch{
+    .twitch__content {
+      background: #392D49;
+
+      border-radius: 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+
+
+      .twitch-stream {
+        display: flex;
+        color: white;
+
+        //mix blend background image
+        background: url("../img/twitch-stream-1-bg.jpg");
+        background-size: cover;
+        background-color: #392D49;
+        background-blend-mode: soft-light;
+
+        font-weight: bold;
+        &__feature {
+          font-weight: 700;
+          margin: 0;
+          .fa-star {
+            padding: 0;
+            margin: 0;
+          }
+        }
+        &__title {
+          margin-top: 20px;
+
+          font-style: italic;
+          text-transform: uppercase;
+        }
+        &__info {
+          font-weight: 300;
+          font-size: 14px;
+        }
+        &__status {
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          font-size: 12px;
+          &--online {
+            margin: 4px;
+            padding: 3px;
+
+            border-radius: 50%;
+            height: 8px;
+            width: 8px;
+          }
+        }
+      }
+      .twitch-stream-video {
+        display: block;
+        position: relative;
+        &__img {
+          overflow: hidden;
+          object-fit: cover;
+          margin-top: 20px;
+          background-color: #392D49;
+          mix-blend-mode: hard-light;
+        }
+          .arrow{
+          position: absolute;
+          right: 50%;
+          top:50%;
+          transform: translate(-50%,-50%);
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-left: 20px solid white;
+          border-bottom: 10px solid transparent;
+
+
+        }
+      }
+    }
+  }
+
+  .calendar{
+    .widget__content{
+      .calendar__month{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+
+      }
+      .table__row{
+        height: 40px;
+        .day{
+          &--muted{
+            color:#a59cae ;
+          }
+          &--active{
+            border-radius: 50%;
+            overflow: hidden;
+
+            padding: 8px;
+          }
 
         }
       }
