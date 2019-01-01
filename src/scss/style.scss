@@ -656,6 +656,39 @@ part1: the left
       }
     }
   }
+
+  .footer__contact{
+    .contact{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      text-transform: uppercase;
+      color: white;
+      &__item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      &__icon {
+        margin-right: 20px;
+      }
+      &__text{
+
+      }
+      &__name{
+        margin-bottom: 5px;
+        padding: 0;
+      }
+      &__address{
+        font-size: 12px;
+        font-weight: 300;
+        color:#665B71;
+      }
+
+
+    }
+  }
 }
 /*********************************************************
 ==========================================================

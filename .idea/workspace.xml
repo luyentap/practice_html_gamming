@@ -68,40 +68,41 @@
     <session id="748159494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6" />
-          <entry key="html" value="3327" />
-          <entry key="scss" value="5583" />
+          <entry key="html" value="3653" />
+          <entry key="scss" value="5857" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="3327" />
-          <entry key="SCSS" value="5583" />
+          <entry key="HTML" value="3653" />
+          <entry key="SCSS" value="5857" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
@@ -115,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="929" column="32" selection-start-line="929" selection-start-column="24" selection-end-line="929" selection-end-column="32" />
+            <state relative-caret-position="305">
+              <caret line="969" column="46" selection-start-line="969" selection-start-column="33" selection-end-line="969" selection-end-column="46" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -143,6 +144,7 @@
                 <element signature="n#div#1;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -151,10 +153,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="653" column="31" selection-start-line="653" selection-start-column="31" selection-end-line="653" selection-end-column="31" />
+            <state relative-caret-position="22">
+              <caret line="672" column="15" selection-start-line="672" selection-start-column="15" selection-end-line="672" selection-end-column="15" />
               <folding>
                 <element signature="e#9365#11094#0" />
+                <element signature="e#11560#11831#0" />
               </folding>
             </state>
           </provider>
@@ -163,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1232">
-              <caret line="557" selection-start-line="557" selection-end-line="557" />
+            <state relative-caret-position="22">
+              <caret line="589" selection-start-line="589" selection-end-line="589" />
             </state>
           </provider>
         </entry>
@@ -173,10 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>color</find>
-      <find>header</find>
-      <find>logo</find>
-      <find>name</find>
       <find>nav</find>
       <find>ani</find>
       <find>ov</find>
@@ -202,7 +201,17 @@
       <find>ti</find>
       <find>twi</find>
       <find>twitch-stream</find>
+      <find>social</find>
+      <find>contact__adress</find>
+      <find>bg_</find>
+      <find>contact__logo</find>
+      <find>contact</find>
     </findStrings>
+    <replaceStrings>
+      <replace>contact__text</replace>
+      <replace>contact__address</replace>
+      <replace>contact__icon</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -387,25 +396,26 @@
       <workItem from="1546166286797" duration="15946000" />
       <workItem from="1546222632098" duration="16296000" />
       <workItem from="1546259432345" duration="1095000" />
-      <workItem from="1546272998479" duration="2295000" />
+      <workItem from="1546272998479" duration="2958000" />
+      <workItem from="1546313533512" duration="3964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54299000" />
+    <option name="totallyTimeSpent" value="58926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4862745" visible="true" weight="0.18005952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48431373" visible="true" weight="0.18005952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.5137255" side_tool="true" visible="true" weight="0.18005952" />
+      <window_info id="Gulp" order="2" sideWeight="0.5156863" side_tool="true" visible="true" weight="0.18005952" />
       <window_info id="npm" order="3" sideWeight="0.50490195" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" sideWeight="0.50121653" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16666667" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,7 +423,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.08496732" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -442,15 +452,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1232">
-          <caret line="557" selection-start-line="557" selection-end-line="557" />
+        <state relative-caret-position="22">
+          <caret line="589" selection-start-line="589" selection-end-line="589" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="929" column="32" selection-start-line="929" selection-start-column="24" selection-end-line="929" selection-end-column="32" />
+        <state relative-caret-position="305">
+          <caret line="969" column="46" selection-start-line="969" selection-start-column="33" selection-end-line="969" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -477,16 +487,18 @@
             <element signature="n#div#1;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="653" column="31" selection-start-line="653" selection-start-column="31" selection-end-line="653" selection-end-column="31" />
+        <state relative-caret-position="22">
+          <caret line="672" column="15" selection-start-line="672" selection-start-column="15" selection-end-line="672" selection-end-column="15" />
           <folding>
             <element signature="e#9365#11094#0" />
+            <element signature="e#11560#11831#0" />
           </folding>
         </state>
       </provider>

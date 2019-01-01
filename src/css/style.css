@@ -509,6 +509,36 @@ part1: the left
       .footer .sponsors .sponsors__list .sponsors__item:hover {
         mix-blend-mode: normal; }
 
+.footer .footer__contact .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: white; }
+  .footer .footer__contact .contact__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer .footer__contact .contact__icon {
+    margin-right: 20px; }
+  .footer .footer__contact .contact__name {
+    margin-bottom: 5px;
+    padding: 0; }
+  .footer .footer__contact .contact__address {
+    font-size: 12px;
+    font-weight: 300;
+    color: #665B71; }
+
 /*********************************************************
 ==========================================================
 animation
