@@ -164,8 +164,10 @@ header {
     background: #403351;
     &-inner {
       display: flex;
-      position: relative;
       justify-content: space-between;
+      align-items: center;
+
+      position: relative;
 
       .header-logo {
         position: absolute;
@@ -188,13 +190,28 @@ header {
         }
       }
       .header-search-home {
-          input[type="text"]{
-            height: 38px;
-            padding: 0 4px;
+        position: relative;
+        input[type="text"]{
+          height: 38px;
+          padding: 0 4px;
 
-            border: solid 1px;
-            border-radius: 20px;
+          border: solid 1px #362b45;
+          border-radius: 20px;
 
+          background: #362b45;
+          color:white;
+
+        }
+          .btn-search{
+            position: absolute;
+            top:50%;
+            right:0;
+            transform: translate(0,-50%);
+
+            border: solid 1px transparent;
+            background: transparent;
+
+            color: white;
           }
       }
     }
