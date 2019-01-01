@@ -351,10 +351,16 @@ part1: the left
     .posts__thumb {
       height: 50vh;
       width: 100%;
+      overflow: hidden;
+
       img {
         width: 100%;
         height: 100%;
         object: cover;
+        &:hover{
+          transform: scale(1.5);
+          transition: 4s;
+        }
       }
       .posts__cat {
         position: absolute;
@@ -416,6 +422,17 @@ part1: the left
           left: 50%;
           top:50%;
           transform: translate(-50%,-50%);
+        }
+        &:hover &::before{
+          transform: rotate(90deg);
+          transition: 4s;
+
+        }
+        &:hover &::after{
+          transform: rotate(40deg);
+          transition: 4s;
+
+
         }
       }
       .posts__date{
