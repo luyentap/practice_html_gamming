@@ -7,6 +7,8 @@ a {
 
 ul {
   list-style: none;
+
+  padding-inline-start: 0px;
 }
 
 /* Style all font awesome icons */
@@ -329,19 +331,22 @@ part1: the left
   .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
 }
 
 .posts {
+  display: flex;
+  justify-content: space-evenly;
   overflow: hidden;
 
   color: white;
   .post-grid__item {
     position: relative;
-    margin: 0 20px 20px 0;
+    margin-bottom: 20px;
     padding: 10px;
-    height: 100vh;
+    //height: 100vh;
     overflow: hidden;
 
     background: #392D49;
@@ -675,12 +680,16 @@ part1: the left
 
 
 .footer{
+  //overflow: hidden;
   .sponsors{
     background: #362b45;
+    width: 100%;
     .sponsors__list{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
+
       .sponsors__item{
         mix-blend-mode: soft-light;
 
@@ -692,8 +701,11 @@ part1: the left
   }
 
   .footer__contact{
+    width: 100%;
+
     .contact{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
 
@@ -724,6 +736,59 @@ part1: the left
     }
   }
 }
+
+/*********************************************************
+==========================================================
+ the responsive of page
+===========================================================
+ *********************************************************/
+@media only screen and (max-width: 800px) {
+  .col-lg-8,.col-lg-6,.col-lg-4,.col-sm-6{
+    width: 100%;
+    display: block;
+  }
+
+
+  .main-nav__list{
+    font-size: 10px;
+  }
+  .nav-account{
+    flex-wrap: wrap;
+
+    padding: 2px;
+    margin-left: 30px;
+
+    font-size: 8px;
+  }
+  .site-content .container{
+    margin: 5%;
+    color:red;
+  }
+
+  .post-grid__item{
+    width: 100%;
+    margin: 0px;
+  }
+  .posts__title{
+    font-size: 15px;
+  }
+
+  .row{
+    justify-content: center;
+  }
+  .post-grid__item{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+//@media only screen and (min-width: 600px) {
+//  .post-grid__item{
+//    width: 100%;
+//    margin: 0px;
+//  }
+//}
+
+
 /*********************************************************
 ==========================================================
 animation

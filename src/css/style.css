@@ -2,7 +2,9 @@ a {
   text-decoration: none; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px; }
 
 /* Style all font awesome icons */
 .fa {
@@ -273,16 +275,23 @@ part1: the left
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
 
 .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   overflow: hidden;
   color: white; }
   .posts .post-grid__item {
     position: relative;
-    margin: 0 20px 20px 0;
+    margin-bottom: 20px;
     padding: 10px;
-    height: 100vh;
     overflow: hidden;
     background: #392D49;
     border-radius: 20px; }
@@ -526,11 +535,14 @@ part1: the left
       padding: 8px; }
 
 .footer .sponsors {
-  background: #362b45; }
+  background: #362b45;
+  width: 100%; }
   .footer .sponsors .sponsors__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     -webkit-box-align: center;
@@ -541,35 +553,75 @@ part1: the left
       .footer .sponsors .sponsors__list .sponsors__item:hover {
         mix-blend-mode: normal; }
 
-.footer .footer__contact .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-transform: uppercase;
-  color: white; }
-  .footer .footer__contact .contact__item {
+.footer .footer__contact {
+  width: 100%; }
+  .footer .footer__contact .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
-  .footer .footer__contact .contact__icon {
-    margin-right: 20px; }
-  .footer .footer__contact .contact__name {
-    margin-bottom: 5px;
-    padding: 0; }
-  .footer .footer__contact .contact__address {
-    font-size: 12px;
-    font-weight: 300;
-    color: #665B71; }
+    align-items: center;
+    text-transform: uppercase;
+    color: white; }
+    .footer .footer__contact .contact__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .footer .footer__contact .contact__icon {
+      margin-right: 20px; }
+    .footer .footer__contact .contact__name {
+      margin-bottom: 5px;
+      padding: 0; }
+    .footer .footer__contact .contact__address {
+      font-size: 12px;
+      font-weight: 300;
+      color: #665B71; }
+
+/*********************************************************
+==========================================================
+ the responsive of page
+===========================================================
+ *********************************************************/
+@media only screen and (max-width: 800px) {
+  .col-lg-8, .col-lg-6, .col-lg-4, .col-sm-6 {
+    width: 100%;
+    display: block; }
+  .main-nav__list {
+    font-size: 10px; }
+  .nav-account {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin-left: 30px;
+    font-size: 8px; }
+  .site-content .container {
+    margin: 5%;
+    color: red; }
+  .post-grid__item {
+    width: 100%;
+    margin: 0px; }
+  .posts__title {
+    font-size: 15px; }
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .post-grid__item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 /*********************************************************
 ==========================================================

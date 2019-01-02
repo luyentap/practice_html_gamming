@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" line="110" />
-    <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" line="335" />
+    <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" line="112" />
+    <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" line="338" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f6852e-7060-447d-8429-a19a2e5a8409" name="Default Changelist" comment="">
@@ -67,29 +67,31 @@
     <session id="748159494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6" />
           <entry key="html" value="3688" />
-          <entry key="scss" value="6117" />
+          <entry key="scss" value="6543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
           <entry key="HTML" value="3688" />
-          <entry key="SCSS" value="6117" />
+          <entry key="SCSS" value="6543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -116,11 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="108" column="44" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="44" />
+            <state relative-caret-position="122">
+              <caret line="99" column="29" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="29" />
               <folding>
-                <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -141,7 +142,8 @@
                 <element signature="n#div#1;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -150,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="433" selection-start-line="433" selection-end-line="433" />
+            <state relative-caret-position="126">
+              <caret line="340" column="31" selection-start-line="340" selection-start-column="31" selection-end-line="340" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -159,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11000">
-              <caret line="516" column="30" selection-start-line="516" selection-start-column="30" selection-end-line="516" selection-end-column="30" />
+            <state relative-caret-position="650">
+              <caret line="578" column="13" selection-start-line="578" selection-start-column="13" selection-end-line="578" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -169,17 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>40</find>
-      <find>padding</find>
-      <find>img</find>
-      <find>gradient</find>
-      <find>post</find>
-      <find>body</find>
-      <find>posts__cat</find>
-      <find>posts__cat-label--category-1</find>
-      <find>bg</find>
-      <find>col-</find>
-      <find>post-grid__item</find>
       <find>widget</find>
       <find>table</find>
       <find>fa-s</find>
@@ -199,6 +190,17 @@
       <find>posts__thumb</find>
       <find>posts__cta</find>
       <find>posts__inner</find>
+      <find>40</find>
+      <find>foot</find>
+      <find>40px</find>
+      <find>padding</find>
+      <find>footer</find>
+      <find>vh</find>
+      <find>20</find>
+      <find>20px</find>
+      <find>post-grid__item</find>
+      <find>posts</find>
+      <find>post</find>
     </findStrings>
     <replaceStrings>
       <replace>contact__text</replace>
@@ -213,8 +215,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
       </list>
     </option>
@@ -267,6 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,7 +298,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,24 +394,26 @@
       <workItem from="1546272998479" duration="2958000" />
       <workItem from="1546313533512" duration="6324000" />
       <workItem from="1546344629815" duration="3072000" />
+      <workItem from="1546422025067" duration="606000" />
+      <workItem from="1546435561619" duration="8160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64358000" />
+    <option name="totallyTimeSpent" value="73124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48202613" visible="true" weight="0.1532738" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4774775" visible="true" weight="0.1532738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="Gulp" order="2" sideWeight="0.51797384" side_tool="true" visible="true" weight="0.1532738" />
+      <window_info id="Gulp" order="2" sideWeight="0.5225225" side_tool="true" visible="true" weight="0.1532738" />
       <window_info id="npm" order="3" sideWeight="0.50490195" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" sideWeight="0.50121653" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09313726" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27450982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,18 +450,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11000">
-          <caret line="516" column="30" selection-start-line="516" selection-start-column="30" selection-end-line="516" selection-end-column="30" />
+        <state relative-caret-position="650">
+          <caret line="578" column="13" selection-start-line="578" selection-start-column="13" selection-end-line="578" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="108" column="44" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="44" />
+        <state relative-caret-position="122">
+          <caret line="99" column="29" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="29" />
           <folding>
-            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -478,15 +481,16 @@
             <element signature="n#div#1;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#aside#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
+        <state relative-caret-position="126">
+          <caret line="340" column="31" selection-start-line="340" selection-start-column="31" selection-end-line="340" selection-end-column="31" />
         </state>
       </provider>
     </entry>
